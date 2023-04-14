@@ -1,0 +1,28 @@
+.form {
+  text-align: right;
+}
+.invalid > div > input,
+.invalid > div > input:focus,
+.invalid > div > input:active,
+.invalid > div > input:focus-visible {
+  border-color: orange;
+}
+.invalid label {
+  color: orange;
+}
+.form button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #8a2b06;
+  border: 1px solid #8a2b06;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.form button:hover,
+.form button:active {
+  background-color: #641e03;
+  border-color: #641e03;
+}
