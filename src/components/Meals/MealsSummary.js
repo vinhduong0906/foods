@@ -1,5 +1,8 @@
 import styles from './MealsSummary.module.css';
 const MealsSummary = () => {
+  {
+    /*---------------Show meals sumary on "Meals Component"----------------*/
+  }
   return (
     <div className={styles.summary}>
       <h2>Delicious Food, Delivered To You</h2>

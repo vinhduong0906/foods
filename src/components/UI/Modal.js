@@ -10,7 +10,7 @@ const Backdrop = () => {
 const ModalContent = (props) => {
   return (
     <div className={styles.modal}>
-      <Cart onClose={props.closeModal} />
+      <Cart closeModal={props.closeModal} />
     </div>
   );
 };

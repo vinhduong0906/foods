@@ -3,7 +3,7 @@ import styles from './CartItem.module.css';
 import React, { useContext } from 'react';
 import CartContext from '../../store/cart-context';
 const CartItem = (props) => {
-  //Display  item in cart
+  //Display  item in cart modal
   const product = props.product;
   const ctxCart = useContext(CartContext);
   const addAmountHandler = () => {

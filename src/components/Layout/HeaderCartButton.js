@@ -19,7 +19,8 @@ const HeaderCartButton = () => {
   return (
     <React.Fragment>
       {showCart && <Modal onClose={hideCartHandler} />}
-      {/*Cart Modal */}
+      {/**Show the Cart Modal when showCart's value is set to 'true'
+       */}
       <button onClick={showCartHandler} className={styles.button}>
         <ShoppingCartIcon className={styles.icon} />
         {/*Cart Icon */}
